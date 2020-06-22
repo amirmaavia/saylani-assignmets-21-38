@@ -110,3 +110,72 @@
 
 //   document.write(university)
 //Question 16
+//Chapter 21-25
+//Chapter 26-30
+//Question 1
+// var num = 3.4890
+//   num1 = Math.round(num)
+//   num3 = Math.floor(num)
+//   num2 = Math.ceil(num)
+//   result = `number ${num} <br> round of value ${num2} <br> floor Value ${num3} <br> ceil Value${num2}`
+// document.write(result)
+  
+//Question 1
+//Question 2
+// var num = -2.4890
+// num1 = Math.round(num)
+// num3 = Math.floor(num)
+// num2 = Math.ceil(num)
+// result = `number ${num} <br> round of value ${num2} <br> floor Value ${num3} <br> ceil Value${num2}`
+// document.write(result)
+//Question 2
+//Question 3
+// var num = -4 
+// num2 = Math.abs(num)
+// alert(num)
+// alert(num2)
+// var num1 = 5
+// num3 = Math.abs(num1)
+// alert(num1)
+// alert(num3)
+//Question 3
+//Question 4
+// var num = Math.random() * 6
+// num = Math.floor(num)
+// alert(num)
+//Question 4
+//Question 5 
+// var num = Math.random() * 2
+// num = Math.floor(num)
+// console.log(num)
+// if(num === 1){
+//     alert("Head")
+// }
+// else{
+//     alert("Tail")
+// }
+//Question 5 
+//Question 6
+// var num = Math.random() * 100
+// num = Math.floor(num)
+// console.log(num)
+// var result = `Random number between 1 to 100 number is  ${num}`
+// document.write(result)
+//Question 6
+//Question 7
+// var age = parseInt(prompt("Enter you age in kg "))
+// age = Math.floor(age)
+// alert(age + " " + "Kilograms") 
+//Question 7
+//Question 8
+// var user = parseInt(prompt("Enter your lucky number"))
+// var secret = Math.random() * 10
+// secret = Math.floor(secret)
+// console.log(secret)
+// if(secret === user){
+//     alert("Congratulations! you are winner this lucky draw")
+// } 
+// else{
+//     alert("Try Again")
+//Question 8
+//Chapter 26-30
