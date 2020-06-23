@@ -279,9 +279,9 @@
 // var month = date.getMonth()
 // var nameofmonths = months[month]
 // var chargesperpoint = 16
-// var unitsbill = chargesperpoint * 120
+// var unitsbill =  120
 // unitsbill = Math.floor(unitsbill)
-// var netamount = unitsbill
+// var netamount = unitsbill * chargesperpoint
 // var latepayment =  350
 // var groosamountafter = latepayment + unitsbill
 // var result = `<center><table>
@@ -290,4 +290,121 @@
 //     </table></center>`
 //     document.write(result)
 //Question 12
-//Chapter 31-35
+//Chapter 31-34
+//Chapter 35-38
+//Question 1
+// function date(){
+//     var date =   new Date()
+//       return(
+//           alert("current Date : " + " " + date)
+//       )
+    
+//  }
+//  date()
+//Question 1
+//Question 2
+// function name(){
+//     var firstname = prompt("Enter your first name ")
+//     var lastname = prompt("Enter your last name ")
+//     var fullname = firstname + " " + lastname
+//     return(
+//         alert(fullname)
+//     )
+// }
+// name()
+//Question 2
+//Question 3
+// function num(){
+//     var num1 = parseInt(prompt("enter num1"))
+//     var num2 = parseInt(prompt("enter num2"))
+//     var result = num1 + num2
+//     alert(result)
+
+// }
+// num()
+//Question 3
+//Question 4
+// var firstnum = parseInt(prompt("Enter your Number"))
+//     var operator = parseInt(prompt("Enter operator +,-,*,/"))
+//     var secnum = parseInt(prompt("Enter your second num"))
+// function calculator(num1,opre,num2){
+//     
+//     if(operator === "+"){
+//     alert(firstnum + secnum)
+//     }
+//     else if(operator === "-"){
+//         alert(firstnum - secnum)
+//     }
+//     else if(operator === "*"){
+//         alert(firstnum * secnum)
+//     }
+//     else if(operator === "/"){
+//         alert(firstnum / secnum)
+//     }
+//     else{
+//         alert("check Your operator")
+//     }
+    
+    
+//             }
+            // calculator(firstnum,operator,secnum)
+//Question 4
+//Question 5
+// function calculator(){
+//     var user = parseInt(prompt("enter your num For square"))
+//     var result = user * user 
+//     alert(result)
+// }
+// calculator()
+//Question 5
+//Question 6
+// var num = parseInt(prompt("enter your num"))
+// function Factorial(n) { 
+     
+//     if (n === 0) {  
+//         return 1;  
+//     } 
+//     else {  
+//         return n * Factorial( n - 1 );  
+//     } 
+// } 
+// Factorial(num)
+//Question 6
+//Question 7
+// var countstart = prompt("Counting start")
+//  var countingstop = prompt('Counting stop')
+//  function count(start,end){
+// for(let c=start; c <= end; c++){
+//     document.write(`<p>${c}</p>`)
+// }
+
+//  }
+// count(countstart,countingstop)
+//Question 7
+//Question 9
+// var width = 10
+// var height = 5
+// function area(_width,_height){
+//     var area = _width * _height
+//     alert(area)
+// }
+// area(width,height)
+//Question 9
+//Question 10
+// var word = prompt("Enter a Word!!!")
+// function palindromeCheck(_word){
+// var str = _word.split("").reverse().join("")
+
+// if(_word ===  str  ){
+//     document.write(`<p>${_word} is a pailndrome word</p>`)
+// }
+// else{
+//     document.write(`<p>${_word} is a not pailndrome word</p>`)
+
+// }
+
+// }
+// palindromeCheck(word)
+
+//Question 10
+//Chapter 35-38

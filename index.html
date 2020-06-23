@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+var word = prompt("Enter a Word!!!")
+function palindromeCheck(_word){
+let str = _word.split("").reverse().join("")
+
+if(_word ===  str  ){
+    document.write(`<p>${_word} is a pailndrome word</p>`)
+}
+else{
+    document.write(`<p>${_word} is a not pailndrome word</p>`)
+
+}
+
+}
+palindromeCheck(word)
+
+         
+        </script>
+</body>
+</html>
